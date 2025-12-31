@@ -19,3 +19,9 @@ def process_data_36(data):
     if data:
         return data.upper()
     return None
+
+/* Update typography */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
