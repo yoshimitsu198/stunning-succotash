@@ -2,3 +2,10 @@
 {"version": "1.0.11", "build": 11}
 {"version": "1.0.23", "build": 23}
 {"version": "1.0.29", "build": 29}
+/* Fix mobile navigation */
+.mobile-nav {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mobile-nav { display: block; }
+}
