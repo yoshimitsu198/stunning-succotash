@@ -33,3 +33,9 @@ function processData59(data) {
     }
     return null;
 }
+
+/* Add dark mode support */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
