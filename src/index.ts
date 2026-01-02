@@ -21,3 +21,9 @@ function processData50(data: string): string | null {
     }
     return null;
 }
+
+/* Fix layout issues */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
