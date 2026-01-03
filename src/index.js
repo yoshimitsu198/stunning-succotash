@@ -29,3 +29,9 @@ function processData55(data) {
 @media (max-width: 768px) {
   .mobile-nav { display: block; }
 }
+
+/* Add animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
