@@ -111,3 +111,11 @@ This update includes various improvements and fixes.
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+/* Fix mobile navigation */
+.mobile-nav {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mobile-nav { display: block; }
+}
