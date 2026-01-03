@@ -21,3 +21,11 @@ function processData55(data) {
     }
     return null;
 }
+
+/* Fix mobile navigation */
+.mobile-nav {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mobile-nav { display: block; }
+}
