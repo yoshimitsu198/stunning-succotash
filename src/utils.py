@@ -25,3 +25,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   line-height: 1.6;
 }
+
+/* Add dark mode support */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
