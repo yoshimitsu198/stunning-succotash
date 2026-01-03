@@ -119,3 +119,9 @@ This update includes various improvements and fixes.
 @media (max-width: 768px) {
   .mobile-nav { display: block; }
 }
+
+/* Update color scheme */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
