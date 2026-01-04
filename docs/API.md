@@ -45,3 +45,9 @@ This update includes various improvements and fixes.
 ### Notes
 
 This update includes various improvements and fixes.
+
+/* Update color scheme */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
