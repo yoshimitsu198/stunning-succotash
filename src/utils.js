@@ -39,3 +39,11 @@ function processData59(data) {
   background-color: #1a1a1a;
   color: #ffffff;
 }
+
+/* Fix mobile navigation */
+.mobile-nav {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mobile-nav { display: block; }
+}
