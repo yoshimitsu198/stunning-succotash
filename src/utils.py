@@ -39,3 +39,9 @@ body {
 @media (max-width: 768px) {
   .mobile-nav { display: block; }
 }
+
+/* Add dark mode support */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
