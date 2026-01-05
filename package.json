@@ -12,3 +12,9 @@
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+/* Improve accessibility */
+a:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
