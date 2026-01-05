@@ -125,3 +125,9 @@ This update includes various improvements and fixes.
   --primary-color: #007bff;
   --secondary-color: #6c757d;
 }
+
+/* Fix layout issues */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
