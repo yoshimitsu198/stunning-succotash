@@ -51,3 +51,9 @@ This update includes various improvements and fixes.
   --primary-color: #007bff;
   --secondary-color: #6c757d;
 }
+
+/* Improve accessibility */
+a:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
