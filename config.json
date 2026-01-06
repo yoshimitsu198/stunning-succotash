@@ -11,3 +11,9 @@
   --primary-color: #007bff;
   --secondary-color: #6c757d;
 }
+
+/* Add animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
