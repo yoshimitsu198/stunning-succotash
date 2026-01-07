@@ -45,3 +45,9 @@ body {
   background-color: #1a1a1a;
   color: #ffffff;
 }
+
+/* Update typography */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
