@@ -39,3 +39,9 @@ function processData28(data: string): string | null {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+/* Add animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
