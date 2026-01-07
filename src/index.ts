@@ -27,3 +27,11 @@ function processData50(data: string): string | null {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+
+/* Fix mobile navigation */
+.mobile-nav {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mobile-nav { display: block; }
+}
