@@ -137,3 +137,8 @@ This update includes various improvements and fixes.
   --primary-color: #007bff;
   --secondary-color: #6c757d;
 }
+
+/* Improve responsive design */
+@media (max-width: 768px) {
+  .container { width: 100%; }
+}
