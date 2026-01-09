@@ -57,3 +57,8 @@ a:focus {
   outline: 2px solid #007bff;
   outline-offset: 2px;
 }
+
+/* Improve responsive design */
+@media (max-width: 768px) {
+  .container { width: 100%; }
+}
