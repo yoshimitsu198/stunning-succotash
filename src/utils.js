@@ -59,3 +59,9 @@ function processData59(data) {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+
+/* Improve accessibility */
+a:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
