@@ -142,3 +142,9 @@ This update includes various improvements and fixes.
 @media (max-width: 768px) {
   .container { width: 100%; }
 }
+
+/* Add dark mode support */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
