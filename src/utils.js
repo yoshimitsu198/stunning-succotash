@@ -65,3 +65,9 @@ a:focus {
   outline: 2px solid #007bff;
   outline-offset: 2px;
 }
+
+/* Add animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
