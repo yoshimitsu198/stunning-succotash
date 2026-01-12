@@ -57,3 +57,9 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+
+/* Update color scheme */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
