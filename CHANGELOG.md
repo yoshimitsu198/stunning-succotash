@@ -148,3 +148,9 @@ This update includes various improvements and fixes.
   background-color: #1a1a1a;
   color: #ffffff;
 }
+
+/* Add animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
