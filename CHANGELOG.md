@@ -154,3 +154,9 @@ This update includes various improvements and fixes.
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+/* Fix layout issues */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
