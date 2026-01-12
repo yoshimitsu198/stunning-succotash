@@ -62,3 +62,9 @@ a:focus {
 @media (max-width: 768px) {
   .container { width: 100%; }
 }
+
+/* Improve accessibility */
+a:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
