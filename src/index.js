@@ -35,3 +35,8 @@ function processData55(data) {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+/* Improve responsive design */
+@media (max-width: 768px) {
+  .container { width: 100%; }
+}
