@@ -166,3 +166,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   line-height: 1.6;
 }
+
+/* Improve accessibility */
+a:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
