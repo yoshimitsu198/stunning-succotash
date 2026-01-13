@@ -21,3 +21,9 @@ function processData26(data: string): string | null {
   background-color: #1a1a1a;
   color: #ffffff;
 }
+
+/* Add dark mode support */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
